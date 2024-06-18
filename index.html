@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title>idList y idName</title>
+        <meta charset="utf-8">
+        <link href="css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <form id="form" method="post">
+
+            <ul>
+                <li>
+                    <label for="nom">Nombre</label>
+                    <input type="text" id="nom" name="nom">
+                    <span id="nom-error" id="ocultar">Eres la hija de Elon Musk o el campo está vacío</span>
+                </li>
+                <li>
+                    <label for="correo">E-mail</label>
+                    <input type="email" id="correo" name="correo">
+                    <span id="email-error" id="ocultar">El campo E-mail está vacío</span>
+                </li>
+                <li>
+                    <button>Enviar</button>
+                </li>
+            </ul>
+
+        </form>
+
+        <script src="js/validar.js"></script>
+
+    </body>
+</html>
